@@ -6,7 +6,7 @@ const {
   getStudentById,
   addStudent,
   deleteStudent
-} = require("../controllers/student.controller");
+} = require("../controller/student.controller");
 
 router.get("/", getAllStudents);
 router.get("/:id", getStudentById);
